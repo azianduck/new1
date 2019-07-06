@@ -64,21 +64,57 @@ body    {
 .wrapperList    {
     text-align: center;
 }
-table,td {
-    border-bottom: 3px solid #DDDDDD;
-    padding-bottom: 20px;    
+.table1  {
+    width: 1000px;
     border-collapse: collapse;
-
-
-       
+    position: relative;
 }
-table p {
-    border: 1px solid #DDDDDD;
-    border-top: none;
-    border-bottom: none;
-    margin: 0;
-    font-weight: bold;
 
+.table1 p {
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 0;
+}
+.row1 td {
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+    border-top: none;
+}
+.table1 td:last-child   {
+    width: 340px;
+}
+.table2 td:last-child   {
+    width: 340px;
+}
+.table2 td:first-child {
+    width: 150px;    
+}
+.table2 td:nth-child(2) {
+    width: 150px;
+}
+.table2 td:nth-child(3) {
+    width: 170px;
+}
+.table2 {
+    width: 1000px;
+    padding-top: 20px;
+}
+.table2 tbody {
+    height: 0;
+}
+.row2 td {
+    border-top: 3px solid #DDDDDD;
+    margin: 0;
+    padding: 0;
+}
+.table2 p {
+    margin: 0;
+    visibility: hidden;
+}
+
+table p:hover   {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 
@@ -86,9 +122,9 @@ table p {
 
 /* BANNER */
 .banner {
-    position: relative;
     text-align: center;
     color: white;
+    position: relative;
 }
 .banner p  {
     position: absolute;
