@@ -1,0 +1,333 @@
+.verline p {
+    font-size: 30px;
+    color: #DDDDDD;
+}
+/*  */
+.bluebg2 {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-image: url(../media/image/bluebackground2.jpg);
+}
+.bluebg2 .wrapper {
+    text-align: center;
+    padding-top: 8%;
+    
+}
+.bluebg2 p {
+    font-size: 26pt;
+    color: white;
+ 
+
+}
+.linebreak {
+    border-bottom: 1px solid #DDDDDD;
+}
+.linebreak p {
+    margin: 5px 0px;
+    font-size: 12pt;
+}
+.linebreak p span {
+    color: #0C5999;
+    text-decoration: underline;
+}
+.linebreak p span:hover {
+    color: wheat;
+    cursor: pointer;
+}
+/* ______________________- */
+.kontent1 {
+    text-align: center;
+}
+.kontent1 p span {
+    color: #0C5999;
+    font-weight: bold;
+    font-size: 20pt;
+    letter-spacing: 2px;
+
+}
+.kontent1 p {
+    font-size: 24pt;
+    margin-bottom: 10px;
+}
+.table2 {
+    margin: 50px 0 80px 0;
+    text-align: left;
+}
+.table2,th,td {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.table2 th {
+    background: #0E5B9A;
+    color: white;
+    font-size: 16pt;
+    height: 50px;
+    text-align: center; 
+}
+.table2 td {
+    font-size: 16pt;
+    vertical-align: text-top;
+    padding: 10px;
+}
+.table2 td:nth-child(3) {
+    width: 275px;
+    height: 120px;
+}
+/* ------------------------------------------------END OF CONTENT1 */
+
+/* CONTENT 2--------------------------- */
+
+.kontent2 {
+    background: #EEEEEE;
+}
+.kontent2 .wrapper {
+    padding: 50px 0px 90px 0px;
+}
+#centerText {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-size: 25pt;
+    margin: 0;
+}
+.kontent2 p span {
+    color: #0C5999;
+    font-weight: bold;
+    font-size: 20pt;
+    letter-spacing: 2px;
+}
+/* STOCK1 ----------------------------- */
+.stock1 {
+    background: white;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 28px;
+    margin: 0;
+    align-items: center;
+
+}
+.left1 {
+    width: 70%;
+}
+.right1 {
+    width: 30%;
+}
+.stock1 p {
+    font-weight: bold;
+}
+.left1bot {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 99%;
+}
+#left1bot-1 {
+    font-size: 24pt;
+    color: #0E5B9A;
+    border: 1px solid #0E5B9A;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    margin: 0;
+}
+
+#left1bot-1 span {
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+#stock1-1 span {
+    font-size: 26pt;
+    color: white;
+    background: #0E5B9A;
+    padding: 1px 10px 3px 13px;
+}
+#stock1-1 {
+    font-size: 24pt;
+    color: #0E5B9A;
+    margin: 0;
+    line-height: 60px;   
+    padding-bottom: 7px;   
+}
+#stock1-2 {
+    font-size: 14pt;
+    color: #5a5a5a;
+    margin: 5px 0px 5px 0px;
+}
+
+/* STOCK 2-------------------------- */
+.stock2 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 30px 0px 30px 0px;
+    
+
+}
+.left2 {
+    width: 70%;
+}
+.right2 {
+    width: 30%;
+}
+.stock2 p {
+    font-weight: bold;
+
+}
+#stock2-1 span {
+    font-size: 26pt;
+    color: white;
+    background: #0E5B9A;
+    padding: 1px 10px 3px 13px;
+}
+#stock2-1 {
+    font-size: 24pt;
+    color: #0E5B9A;
+    margin: 0;
+    line-height: 60px;      
+}
+#stock2-2 {
+    font-size: 14pt;
+    color: #5a5a5a;
+}
+/* STOCK3--------------------------- */
+.stock3 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 30px 0px 30px 0px;
+}
+.left3 {
+    width: 70%;
+}
+.right3 {
+    width: 30%;
+}
+.stock3 p {
+    font-weight: bold;
+}
+#stock3-1 span {
+    font-size: 26pt;
+    color: white;
+    background: #0E5B9A;
+    padding: 1px 10px 3px 13px;
+}
+#stock3-1 {
+    font-size: 24pt;
+    color: #0E5B9A;
+    margin: 0;
+    line-height: 60px;
+}
+#stock3-2 span {
+    color: #0E5B9A;
+    font-size: 16pt;
+}
+#stock3-2 {
+    font-size: 14pt;
+    color: #5a5a5a;
+}
+/* STOCK 4----------------------------- */
+.stock4 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 30px 0px 30px 0px;
+}
+.left4 {
+    width: 70%;
+}
+.right4 {
+    width: 30%;
+}
+.stock4 p {
+    font-weight: bold;
+}
+#stock4-1 span {
+    font-size: 26pt;
+    color: white;
+    background: #0E5B9A;
+    padding: 1px 10px 3px 13px;
+}
+#stock4-1 {
+    font-size: 24pt;
+    color: #0E5B9A;
+    margin: 0;
+    line-height: 60px;
+}
+#stock4-2 {
+    color: #0E5B9A;
+    font-size: 14pt;
+
+}
+/* STOCK 5------------------ */
+.stock5 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 30px 0px 30px 0px;
+}
+.left5 {
+    width: 70%;
+}
+.right5 {
+    width: 30%;
+}
+.stock5 p {
+    font-weight: bold;
+}
+#stock5-1 span {
+    font-size: 26pt;
+    color: white;
+    background: #0E5B9A;
+    padding: 1px 10px 3px 13px;
+}
+#stock5-1 {
+    font-size: 24pt;
+    color: #0E5B9A;
+    margin: 0;
+    line-height: 60px;
+}
+#stock5-2 {
+    color: #0E5B9A;
+    font-size: 14pt;
+
+}
+/* --------------------------------------------------------END OF KONTEN2-- */
+.kontent3 .wrapper {
+    text-align: center;
+    padding-top: 85px;
+}
+#kontent3-1 {
+    color:  #0F5C9B;
+    font-weight: bold;
+    font-size: 20pt;
+    border: 1px solid #0F5C9B;
+    display: inline;
+    padding: 15px 70px 15px 70px;
+}
+#kontent3-2 {
+    font-size: 16pt;
+    color: #5a5a5a;
+    margin: 0;
+    margin-top: 50px;
+}
+#kontent3-3 {
+    font-size: 16pt;
+    color: #5a5a5a;
+    margin: 0;
+    margin-bottom: 80px;
+
+}
+#kontent3-2 span {
+    color: #0C5999;
+    font-size: 20pt;
+}
+#kontent3-3 span {
+    color: #0C5999;
+    font-size: 20pt;
+}

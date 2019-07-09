@@ -135,13 +135,13 @@ table p:hover   {
     background-image: url(../media/image/banner.jpg);
 }
 .banner .wrapper {
-    padding: 140px 0px;
+    padding-top: 10%;
 }
 .banner p  {
     font-size: 25pt;
-    border: 1px solid wheat;
+    border: 1px solid white;
     margin: 0;
-    color: wheat;
+    color: white;
     text-align: center;
 }
 /* ---------------------------------------------------------------------------------------END OF BANNER */
@@ -195,7 +195,7 @@ table p:hover   {
     color: #0E5B9A;
 }
 .smolNews p span:hover {
-    opacity: 0.7;
+    color: wheat;
     cursor: pointer;
 }
 .smolNews p span {
@@ -292,25 +292,16 @@ table p:hover   {
     background-repeat: no-repeat;   
     background-size: cover;
     background-image: url(../media/image/bluebackground.jpg);
-    overflow: auto;
-
-
 }
 .bluebg .wrapper {
     text-align: center;
-    align-items: center;
-
-
+    padding-top: 5%;
 }
-.inside {
-    padding-top: 70px;
-}
-
 #p1{
     font-size: 19pt;
     margin: 0;
-    color: wheat;
-    border: 1px solid wheat;
+    color: white;
+    border: 1px solid white;
     display: inline;
     padding: 10px 30px;
 }
@@ -343,6 +334,11 @@ table p:hover   {
     right: 10%;
     margin-top: 15px;
 }
+
+.pagetop img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 /* QUICK LINK SECTION------------------------------- */
 
 .quicklink {
@@ -354,6 +350,12 @@ table p:hover   {
 .quicklink p {
     margin: 0;
     font-size: 10pt;
+    color: grey;
+    font-weight:    bold;
+}
+.quicklink p span:hover {
+    color: wheat;
+    cursor: pointer;
 }
 /* -------------------------------------------------------END OF QUICKLINK */
 
