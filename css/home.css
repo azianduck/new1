@@ -10,6 +10,7 @@
     background-repeat: no-repeat;   
     background-size: cover;
     background-image: url(../media/image/bluebackground2.jpg);
+    margin-top: 30px;
 }
 .bluebg2 .wrapper {
     text-align: center;
@@ -28,6 +29,8 @@
 .linebreak p {
     margin: 5px 0px;
     font-size: 12pt;
+    color: #5a5a5a;
+
 }
 .linebreak p span {
     color: #0C5999;
@@ -51,6 +54,8 @@
 .kontent1 p {
     font-size: 24pt;
     margin-bottom: 10px;
+    color: #5a5a5a;
+
 }
 .table2 {
     margin: 50px 0 80px 0;
@@ -71,6 +76,8 @@
     font-size: 16pt;
     vertical-align: text-top;
     padding: 10px;
+    color: #5a5a5a;
+
 }
 .table2 td:nth-child(3) {
     width: 275px;
@@ -91,6 +98,8 @@
     padding: 30px 0 30px 0;
     font-size: 25pt;
     margin: 0;
+    color: #5a5a5a;
+
 }
 .kontent2 p span {
     color: #0C5999;
