@@ -356,6 +356,9 @@ table p:hover   {
     padding: 3%;
     text-align: center;
 }
+.inside {
+    padding-top: 15px;
+}
 #p1{
     font-size: 19pt;
     margin: 0;
@@ -375,6 +378,12 @@ table p:hover   {
     color: white;
     font-size: 29pt;
     margin: 0;
+    line-height: 5px;
+    font-weight: bold;
+}
+#p3 span {
+    font-size: 11pt;
+    font-weight: normal;
 }
 .botP:last-child {
 }
@@ -388,11 +397,12 @@ table p:hover   {
 .botP {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px 100px 30px 100px;
 }
 .pagetop {
     position: absolute;
     right: 15%;
-    bottom: 10%;
+    bottom: 15%;
 }
 
 .pagetop img:hover {
