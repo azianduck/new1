@@ -6,7 +6,8 @@ body, html {
 }
 .wrapper {	
 	max-width: 950px;
-	margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 } 
 /* MAKE A HEADPAGE , LOGO ETC ------------------------------------------------------------------------------*/
 .wrapperHead   {
@@ -133,20 +134,19 @@ table p:hover   {
 
 /* BANNER -------------------------------------------------------------------------------------------*/
 .banner {
-    width: 100%;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;   
-    background-size: cover;
     background-image: url(../media/image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
 }
 .banner .wrapper {
-    padding-top: 10%;
+    padding: 12%;
 }
 .banner p  {
     font-size: 25pt;
     border: 1px solid white;
     margin: 0;
+    padding: 0;
     color: white;
     text-align: center;
 }
@@ -258,6 +258,53 @@ table p:hover   {
     justify-content: space-between;
     padding: 40px 0px;
 }
+.box1 {
+    position: relative;
+    display: inline-block;
+}
+#boxhover-1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.box1:hover #boxhover-1 {
+    display: inline;
+    cursor: pointer;
+}
+/* BOX-2 */
+.box2 {
+    position: relative;
+    display: inline-block;
+}
+#boxhover-2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.box2:hover #boxhover-2 {
+    display: inline;
+    cursor: pointer;
+}
+/* BOX-3 */
+.box3 {
+    position: relative;
+    display: inline-block;
+}
+#boxhover-3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.box3:hover #boxhover-3 {
+    display: inline;
+    cursor: pointer;
+}
 /* ---------------END OF 3 BOX */
 /* --------------------------------------------------------------------------------------------END OF CONTENT  */
 
@@ -298,17 +345,16 @@ table p:hover   {
     cursor: pointer;
 }
 /* ------------------------------ */
-
 .bluebg {
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;   
-    background-size: cover;
     background-image: url(../media/image/bluebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    position: relative;
 }
 .bluebg .wrapper {
+    padding: 3%;
     text-align: center;
-    padding-top: 5%;
 }
 #p1{
     font-size: 19pt;
@@ -328,6 +374,7 @@ table p:hover   {
 #p3 {
     color: white;
     font-size: 29pt;
+    margin: 0;
 }
 .botP:last-child {
 }
@@ -335,17 +382,17 @@ table p:hover   {
     color: white;
     font-size: 12pt;
 }
+.topP {
+    margin: 5px;
+}
 .botP {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    padding: 0px 75px;
 }
 .pagetop {
-    float: right;
     position: absolute;
-    right: 10%;
-    margin-top: 15px;
+    right: 15%;
+    bottom: 10%;
 }
 
 .pagetop img:hover {
