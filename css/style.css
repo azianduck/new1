@@ -27,6 +27,9 @@ body, html {
     align-items: center;
     justify-content: space-between;
 }
+.lefthead a {
+    text-decoration: none;
+}
 .lefthead2  {
     margin-left: 10px;
 }
@@ -426,6 +429,10 @@ table p:hover   {
 .quicklink p span:hover {
     color: wheat;
     cursor: pointer;
+}
+.quicklink p span a {
+    text-decoration: none;
+    color: grey;
 }
 /* -------------------------------------------------------END OF QUICKLINK */
 
